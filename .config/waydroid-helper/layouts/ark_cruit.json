@@ -1,0 +1,140 @@
+{
+  "version": "1.2",
+  "screen_resolution": {
+    "width": 1707,
+    "height": 929
+  },
+  "widgets": [
+    {
+      "type": "singleclick",
+      "x": 798.99609375,
+      "y": 163.3125,
+      "width": 50.0,
+      "height": 50.0,
+      "text": "E",
+      "default_keys": [
+        [
+          "E"
+        ]
+      ]
+    },
+    {
+      "type": "singleclick",
+      "x": 606.8984375,
+      "y": 161.61328125,
+      "width": 50.0,
+      "height": 50.0,
+      "text": "W",
+      "default_keys": [
+        [
+          "W"
+        ]
+      ]
+    },
+    {
+      "type": "singleclick",
+      "x": 599.25,
+      "y": 354.56640625,
+      "width": 50.0,
+      "height": 50.0,
+      "text": "S",
+      "default_keys": [
+        [
+          "S"
+        ]
+      ]
+    },
+    {
+      "type": "singleclick",
+      "x": 794.75,
+      "y": 354.5625,
+      "width": 50.0,
+      "height": 50.0,
+      "text": "D",
+      "default_keys": [
+        [
+          "D"
+        ]
+      ]
+    },
+    {
+      "type": "singleclick",
+      "x": 1260.55078125,
+      "y": 724.31640625,
+      "width": 50.0,
+      "height": 50.0,
+      "text": "Space",
+      "default_keys": [
+        [
+          "Space"
+        ]
+      ]
+    },
+    {
+      "type": "singleclick",
+      "x": 991.94921875,
+      "y": 465.9140625,
+      "width": 50.0,
+      "height": 50.0,
+      "text": "2",
+      "default_keys": [
+        [
+          "2"
+        ]
+      ]
+    },
+    {
+      "type": "singleclick",
+      "x": 1070.1484375,
+      "y": 620.61328125,
+      "width": 50.0,
+      "height": 50.0,
+      "text": "Q",
+      "default_keys": [
+        [
+          "Q"
+        ]
+      ]
+    },
+    {
+      "type": "singleclick",
+      "x": 158.94921875,
+      "y": 825.46875,
+      "width": 50.0,
+      "height": 50.0,
+      "text": "3",
+      "default_keys": [
+        [
+          "3"
+        ]
+      ]
+    },
+    {
+      "type": "singleclick",
+      "x": 974.9453125,
+      "y": 824.61328125,
+      "width": 50.0,
+      "height": 50.0,
+      "text": "4",
+      "default_keys": [
+        [
+          "4"
+        ]
+      ]
+    },
+    {
+      "type": "singleclick",
+      "x": 157.24609375,
+      "y": 483.765625,
+      "width": 50.0,
+      "height": 50.0,
+      "text": "1",
+      "default_keys": [
+        [
+          "1"
+        ]
+      ]
+    }
+  ],
+  "created_at": "/home/kunaro"
+}

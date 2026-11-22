@@ -1,0 +1,56 @@
+[[mgr.prepend_keymap]]
+on = "<C-y>"
+run = "plugin system-clipboard"
+desc = "复制文件到系统剪切板"
+
+[[mgr.prepend_keymap]]
+on = "M"
+run = "plugin mount"
+desc = "挂载设备"
+
+## == 配置 Which-Key 菜单== ##
+[[mgr.prepend_keymap]]
+on = ["g", "r"]
+run = "cd /"
+desc = "跳转到根目录"
+
+[[mgr.prepend_keymap]]
+on = ["g", "g"]
+run = "arrow top"
+desc = "跳到顶部"
+
+[[mgr.prepend_keymap]]
+on = ["g", "h"]
+run = "cd ~"
+desc = "回到主目录"
+
+[[mgr.prepend_keymap]]
+on = ["g", "c"]
+run = "cd ~/.config"
+desc = "前往.config目录"
+
+[[mgr.prepend_keymap]]
+on = ["g", "d"]
+run = "cd ~/Downloads"
+desc = "前往下载目录"
+
+[[mgr.prepend_keymap]]
+on = ["g", "t"]
+run = "cd ~/.local/share/Trash"
+desc = "前往回收站"
+
+[[mgr.prepend_keymap]]
+on = ["g", "f"]
+run = "follow"
+desc = "跟随悬浮的符号链接"
+
+[[mgr.prepend_keymap]]
+on = [ "g", "<Space>" ]
+run = "cd --interactive"
+desc = "交互式跳转"
+
+
+[[mgr.prepend_keymap]]
+on = ["g", "m"]
+run = "cd /run/media/kunaro"
+desc = "前往挂载设备目录"

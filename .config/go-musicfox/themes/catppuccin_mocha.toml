@@ -1,0 +1,259 @@
+# Catppuccin Mocha — Dark Theme (with darker background)
+name = "Catppuccin Mocha"
+description = "Catppuccin Mocha theme — a soothing pastel dark theme with a darker background"
+
+# ── Dark Variant ───────────────────────────────────────────
+[dark]
+primary = "#cba6f7"      # Mauve
+secondary = "#7f849c"    # Overlay1
+accent = "#fab387"       # Peach
+success = "#a6e3a1"      # Green
+warning = "#f9e2af"      # Yellow
+error = "#f38ba8"        # Red
+info = "#89dceb"         # Sky
+muted = "#313244"        # Surface0
+hintKey = "#7f849c"      # Overlay1
+background = "#11111b"   # Crust（更暗的背景）
+foreground = "#cdd6f4"   # Text
+border = "#45475a"       # Surface1
+surface = "#181825"      # Mantle
+
+[dark.highlights]
+menuTitle = "#cba6f7"
+# 菜单项文字颜色
+menuItem = "#cdd6f4"
+# 选中项前景色
+selectedItem = "#cba6f7"
+# 鼠标悬停颜色
+menuItemHover = "#fab387"
+# 选中+悬停颜色
+selectedItemHover = "#cba6f7"
+# 页面标题颜色
+title = "#cba6f7"
+# 输入提示颜色
+prompt = "#cba6f7"
+# 返回按钮颜色
+backButton = "#7f849c"
+# 返回按钮悬停颜色
+backButtonHover = "#fab387"
+# 副标题颜色
+subtitle = "#7f849c"
+# 进度条空槽颜色
+progressEmpty = "#313244"
+# 滚动条轨道颜色
+scrollTrack = "#181825"
+# 滚动条滑块颜色
+scrollThumb = "#313244"
+# 按钮常态颜色
+button = "#cba6f7"
+# 按钮失焦颜色
+buttonBlurred = "#7f849c"
+
+[dark.popup]
+surface = "#181825"
+border = "#45475a"
+
+# ── 通知组件配色 ─────────────────────────────────────────
+[dark.notification]
+surface = "#181825"
+# 信息通知边框色
+infoBorder = "#89dceb"
+# 成功通知边框色
+successBorder = "#a6e3a1"
+# 警告通知边框色
+warningBorder = "#f9e2af"
+# 错误通知边框色
+errorBorder = "#f38ba8"
+
+# ── 状态栏配色 ───────────────────────────────────────────
+[dark.statusBar]
+# 状态栏基底背景色
+bar = "#181825"
+# 状态栏文字颜色
+text = "#7f849c"
+# 面包屑路径颜色
+# 面包屑分隔符颜色 ">"
+breadcrumbSep = "#313244"
+# 面包屑悬停颜色
+breadcrumbHover = "#fab387"
+# 面包屑点击颜色
+breadcrumbClick = "#cba6f7"
+# 时间显示颜色
+# 标签块文字颜色
+nugget = "#cdd6f4"
+# 标签块背景色
+nuggetLabel = "#cba6f7"
+
+# ── Markdown 渲染主题 ────────────────────────────────────
+# 支持 glamour 内置主题名（dark/light/dracula/tokyo-night/notion/pink）
+# 或自定义 JSON 主题文件路径
+[dark.markdown]
+dark = "dark"
+light = "light"
+
+[dark.app]
+# Lyric colors
+lyricActive = "#b4befe"
+lyricTransition = "#cba6f7"
+lyricInactive = "#313244"
+lyricHighlight = "#cdd6f4"
+
+# Playbar colors (ANSI terminal colors — adapt to terminal theme)
+playbarMode = "#cba6f7"
+playbarVolume = "#89dceb"
+playbarPlaying = "#a6e3a1"
+playbarPaused = "#f9e2af"
+playbarHeartLiked = "#f38ba8"
+playbarHeartUnliked = "#7f849c"
+playbarArtist = "#7f849c"
+
+# Visualizer colors: "random" or hex
+visualizerColorStart = "random"
+visualizerColorEnd = "random"
+
+# 整个应用背景色（默认透明不设置）
+background = "#11111b"
+# 右键菜单背景色
+contextMenuBg = "#181825"
+# 右键菜单边框色
+contextMenuBorder = "#45475a"
+# 频谱纵向渐变色
+spectrumVerticalBg = "#11111b"
+# 桌面歌词背景色
+desktopLyricsBg = "#11111b"
+# 登录/认证状态颜色
+loginError = "#f38ba8"
+loginSuccess = "#a6e3a1"
+authStatus = "#89dceb"
+# CLI 配置表颜色
+configTableBorder = "#313244"
+configTableSelectedFg = "#cdd6f4"
+configTableSelectedBg = "#181825"
+
+# ── Light Variant (Catppuccin Latte) ──────────────────────
+[light]
+primary = "#8839ef"      # Mauve
+secondary = "#8c8fa1"    # Overlay1
+accent = "#fe640b"       # Peach
+success = "#40a02b"      # Green
+warning = "#df8e1d"      # Yellow
+error = "#d20f39"        # Red
+info = "#04a5e5"         # Sky
+muted = "#ccd0da"        # Surface0
+hintKey = "#8c8fa1"      # Overlay1
+background = "#eff1f5"   # Base
+foreground = "#4c4f69"   # Text
+border = "#bcc0cc"       # Surface1
+surface = "#e6e9ef"      # Mantle
+
+[light.highlights]
+menuTitle = "#8839ef"
+# 菜单项文字颜色
+menuItem = "#4c4f69"
+# 选中项前景色
+selectedItem = "#8839ef"
+# 鼠标悬停颜色
+menuItemHover = "#fe640b"
+# 选中+悬停颜色
+selectedItemHover = "#8839ef"
+# 页面标题颜色
+title = "#8839ef"
+# 输入提示颜色
+prompt = "#8839ef"
+# 返回按钮颜色
+backButton = "#8c8fa1"
+# 返回按钮悬停颜色
+backButtonHover = "#fe640b"
+# 副标题颜色
+subtitle = "#8c8fa1"
+# 进度条空槽颜色
+progressEmpty = "#ccd0da"
+# 滚动条轨道颜色
+scrollTrack = "#e6e9ef"
+# 滚动条滑块颜色
+scrollThumb = "#ccd0da"
+# 按钮常态颜色
+button = "#8839ef"
+# 按钮失焦颜色
+buttonBlurred = "#8c8fa1"
+
+[light.popup]
+surface = "#e6e9ef"
+border = "#bcc0cc"
+
+# ── 通知组件配色 ─────────────────────────────────────────
+[light.notification]
+surface = "#e6e9ef"
+# 信息通知边框色
+infoBorder = "#04a5e5"
+# 成功通知边框色
+successBorder = "#40a02b"
+# 警告通知边框色
+warningBorder = "#df8e1d"
+# 错误通知边框色
+errorBorder = "#d20f39"
+
+# ── 状态栏配色 ───────────────────────────────────────────
+[light.statusBar]
+# 状态栏基底背景色
+bar = "#e6e9ef"
+# 状态栏文字颜色
+text = "#8c8fa1"
+# 面包屑路径颜色
+# 面包屑分隔符颜色 ">"
+breadcrumbSep = "#ccd0da"
+# 面包屑悬停颜色
+breadcrumbHover = "#fe640b"
+# 面包屑点击颜色
+breadcrumbClick = "#8839ef"
+# 时间显示颜色
+# 标签块文字颜色
+nugget = "#4c4f69"
+# 标签块背景色
+nuggetLabel = "#8839ef"
+
+# ── Markdown 渲染主题 ────────────────────────────────────
+# 支持 glamour 内置主题名（dark/light/dracula/tokyo-night/notion/pink）
+# 或自定义 JSON 主题文件路径
+[light.markdown]
+dark = "dark"
+light = "light"
+
+[light.app]
+# Lyric colors
+lyricActive = "#04a5e5"
+lyricTransition = "#8839ef"
+lyricInactive = "#ccd0da"
+lyricHighlight = "#4c4f69"
+
+# Playbar colors (ANSI terminal colors — adapt to terminal theme)
+playbarMode = "#8839ef"
+playbarVolume = "#04a5e5"
+playbarPlaying = "#40a02b"
+playbarPaused = "#df8e1d"
+playbarHeartLiked = "#d20f39"
+playbarHeartUnliked = "#8c8fa1"
+playbarArtist = "#8c8fa1"
+
+# Visualizer colors: "random" or hex
+visualizerColorStart = "random"
+visualizerColorEnd = "random"
+
+# 整个应用背景色（默认透明不设置）
+background = "#eff1f5"
+# 右键菜单背景色
+contextMenuBg = "#e6e9ef"
+# 右键菜单边框色
+contextMenuBorder = "#bcc0cc"
+# 频谱纵向渐变色
+spectrumVerticalBg = "#eff1f5"
+# 桌面歌词背景色
+desktopLyricsBg = "#eff1f5"
+# 登录/认证状态颜色
+loginError = "#d20f39"
+loginSuccess = "#40a02b"
+authStatus = "#04a5e5"
+# CLI 配置表颜色
+configTableBorder = "#ccd0da"
+configTableSelectedFg = "#4c4f69"
+configTableSelectedBg = "#e6e9ef"

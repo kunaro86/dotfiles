@@ -1,0 +1,14 @@
+[[plugin.deps]]
+use = "orhnk/system-clipboard"
+rev = "ed946c3"
+hash = "43fff18b85896a499105f621de458ea1"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:mount"
+rev = "9166202"
+hash = "b95f898e6dc60b52edbc415952e14395"
+
+[[flavor.deps]]
+use = "yazi-rs/flavors:catppuccin-mocha"
+rev = "1183892"
+hash = "ce320f877fe709b189433941aba747c4"

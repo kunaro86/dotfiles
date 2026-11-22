@@ -1,0 +1,49 @@
+{
+  "version": "1.2",
+  "screen_resolution": {
+    "width": 1707,
+    "height": 929
+  },
+  "widgets": [
+    {
+      "type": "singleclick",
+      "x": 1571.69921875,
+      "y": 59.6171875,
+      "width": 50.0,
+      "height": 50.0,
+      "text": "Space",
+      "default_keys": [
+        [
+          "Space"
+        ]
+      ]
+    },
+    {
+      "type": "singleclick",
+      "x": 1099.94921875,
+      "y": 522.01171875,
+      "width": 50.0,
+      "height": 50.0,
+      "text": "Q",
+      "default_keys": [
+        [
+          "Q"
+        ]
+      ]
+    },
+    {
+      "type": "singleclick",
+      "x": 1424.65234375,
+      "y": 63.01171875,
+      "width": 50.0,
+      "height": 50.0,
+      "text": "D",
+      "default_keys": [
+        [
+          "D"
+        ]
+      ]
+    }
+  ],
+  "created_at": "/home/kunaro"
+}
